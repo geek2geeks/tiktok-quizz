@@ -1,0 +1,29 @@
+@font-face {
+      font-family: 'TikTokDisplayFont';
+      src: url('/fonts/TikTokDisplayFont.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-family: 'TikTokText';
+      src: url('/fonts/TikTokText.woff2') format('woff2');
+    }
+
+    :root {
+      --tiktok-black: #010101;
+      --tiktok-red: #FE2C55;
+      --tiktok-cyan: #25F4EE;
+      --tiktok-white: #FFFFFF;
+      --tiktok-gray: #161823;
+      --tiktok-light-gray: #F1F1F3;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'TikTokText', sans-serif;
+      background-color: var(--tiktok-black);
+      color: var(--tiktok-white);
+    }
+
+    .tiktok-container {
+      min-height: 100vh;
+    }
